@@ -32,7 +32,7 @@ public class EmailPasswordActivity extends BaseActivity implements
     private EditText mPasswordField;
 
     // [START declare_auth]
-    private FirebaseAuth mAuth;
+    private FirebaseAuth mAuth ;
     // [END declare_auth]
 
     @Override
