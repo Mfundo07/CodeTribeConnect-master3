@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.android.codetribeconnect.UsersActivity"
-    android:paddingLeft="@dimen/fab_margin"
-    android:paddingRight="@dimen/fab_margin"
-    android:paddingTop="@dimen/fab_margin"
-    android:background="@drawable/bgt">
-
-        <ListView
-            android:id="@+id/active_users_list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawSelectorOnTop="true"
-            android:scrollbars="vertical"
-            android:dividerHeight="10dp"/>
-
-
-
-
-
-
-
-
-
-
-
-</LinearLayout>
+    android:background="@drawable/bgt"
+    android:orientation="vertical" />

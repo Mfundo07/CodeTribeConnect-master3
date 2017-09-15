@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CT Connect Admin</string>
+    <string name="app_name">CodeTribe Connect</string>
     <string name="codeTribes"> Code Tribes</string>
     <string name="chat">Chat</string>
     <string name="portfolio">Portfolio</string>
@@ -77,6 +77,12 @@
 
         <string name="id_fmt">User ID: %s</string>
         <string name="email_fmt">Email: %s</string>
+    <!-- Label for dropdown menu option if the pet is male [CHAR LIMIT=20] -->
+    <string name="status_alumni">Alumni</string>
+
+    <!-- Label for dropdown menu option if the pet is female [CHAR LIMIT=20] -->
+    <string name="status_intern">Intern</string>
+    <string name="status_unknown">Unknown</string>
 
 
 </resources>

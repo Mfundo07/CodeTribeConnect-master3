@@ -211,7 +211,7 @@ public class EmailPasswordActivity extends BaseActivity implements
             verifyButton.setEnabled(!user.isEmailVerified());
             if(!user.isEmailVerified() == false){
                 verifyButton.setEnabled(true);
-                verifyButton.setText("Move to Editor");
+                verifyButton.setText("Connect!");
                 verifyButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
