@@ -18,8 +18,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
-import org.w3c.dom.Text;
-
 /**
  * Created by RP on 2017/09/02.
  */
@@ -101,5 +99,12 @@ public class PortfolioFragment extends Fragment {
     }
 
     public PortfolioFragment() {
+    }
+
+    private void detachDatabaseReadListener() {
+        if (mChildEventListener != null) {
+            mDatabaseReference.removeEventListener(mChildEventListener);
+            mChildEventListener = null;
+        }
     }
 }
